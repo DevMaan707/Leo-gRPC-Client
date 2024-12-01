@@ -3,7 +3,7 @@ const CodeEditor = ()=>{
   return (
     <Editor
         height="90vh"
-        defaultLanguage="rust"
+        defaultLanguage="javascript"
         defaultValue=""
         theme="dark"
       />

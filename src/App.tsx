@@ -8,9 +8,7 @@ function App() {
       <div>
       <Button>Click me</Button>
     </div>
-      <h1 className=" bg-blue-600 text-3xl font-bold underline">
-      Hello world!
-      </h1>
+      
       <CodeEditor></CodeEditor>
     </main>
   );
