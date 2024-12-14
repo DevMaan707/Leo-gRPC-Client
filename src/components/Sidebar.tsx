@@ -23,12 +23,10 @@ export const Sidebar: React.FC = () => {
   };
 
   return (
-    <div style={{ width }} className="h-full bg-gray-600 p-4 relative">
+    <div style={{ width }} className="h-full bg-gray-600 p-2 relative">
       <h2 className="text-white pb-4 underline">Explorer</h2>
-      <RequestSideBarView name="Wedzing" />
-      <RequestSideBarView name="Wedzing" />
-      <RequestSideBarView name="Wedzing" />
-      <RequestSideBarView name="Wedzing" />
+      <RequestSideBarView name="Wedzing" dropdownItems={['Option 1', 'Option 2', 'Option 3']} />
+  
       <div
         onMouseDown={handleMouseDown}
         className="absolute top-0 right-0 h-full w-2 cursor-ew-resize bg-gray-800"
