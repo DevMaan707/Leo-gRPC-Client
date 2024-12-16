@@ -8,11 +8,15 @@ const HomePage: React.FC = () => {
     <div className="flex flex-col h-screen bg-gray-800">
       <Navbar />
       <div className="flex flex-1">
-        <Sidebar />
 
-        <MainScreen />
+        <Sidebar />
+        <div className="flex-1">
+          <MainScreen />
+        </div>
       </div>
     </div>
   );
 };
+
 export default HomePage;
+
